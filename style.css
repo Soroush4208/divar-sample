@@ -23,8 +23,6 @@
     padding-bottom: 1rem;
     width: 150px;
     border-bottom: 1px solid #000;
-}
-
-.filter__item i {
     cursor: pointer;
 }
+
