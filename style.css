@@ -3,3 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.cart{
+    padding: 5px;
+    border: 1px solid ;
+    height: 150px;
+    display: grid;
+    text-align: end;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    border-radius: 5px;
+}
+.img{
+    padding: 5px;
+    width: 95%;
+    height: 95%;
+    grid-column:1 ;
+    grid-row: 1/6;
+}
+.title__cart{
+    grid-column:2/4 ;
+    grid-row: 1/6;
+}
+.price__cart{
+    grid-column:2/4  ;
+    grid-row: 2;
+}
+.attention__cart{
+    color: red;
+    grid-column:3 ;
+    grid-row: 5;
+}
+.address__cart{
+    grid-column:2;
+    grid-row: 5;
+}
