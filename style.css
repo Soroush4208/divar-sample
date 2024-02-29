@@ -3,3 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+nav{
+    border-bottom: 3px solid #cacaca;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addAd-button{
+    background-color: rgb(172, 1, 1);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.btn{
+    border: none;
+    padding: 5px 10px;
+    background-color: #fff; 
+    color: #8c8c8c; 
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: #c0bdbd;
+    color: #393939;
+    cursor: pointer; 
+    border-radius: 3px;
+}
+
+.search-input{
+    border: none;
+    border-radius: 5px;
+    background-color: #d8d7d7;
+    padding: 5px;
+    width: 350px;
+}
+
+.logo{
+    width: 35px;
+    cursor: pointer;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
