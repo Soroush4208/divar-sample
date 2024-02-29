@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 .main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -42,3 +43,28 @@
     grid-column:2;
     grid-row: 5;
 }
+=======
+
+
+/* Filter */
+.filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.filter__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    font-size: 12px;
+    padding-bottom: 1rem;
+    width: 150px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+>>>>>>> 9a65235d5b449e7dd91463bafb8bd00a7a9afdc6
