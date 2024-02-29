@@ -161,6 +161,7 @@ footer :nth-child(1) {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 15px;
+    margin-top: 10px;
 }
 
 .category{
