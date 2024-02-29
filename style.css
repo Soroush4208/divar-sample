@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* Filter */
+.filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.filter__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    font-size: 12px;
+    padding-bottom: 1rem;
+    width: 150px;
+    border-bottom: 1px solid #000;
+}
+
+.filter__item i {
+    cursor: pointer;
+}
